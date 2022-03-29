@@ -1,8 +1,8 @@
-package com.lgtm.default_Android_Project_Template
+package com.lgtm.bubble_level
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.lgtm.default_Android_Project_Template.databinding.ActivityMainBinding
+import com.lgtm.bubble_level.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Thread.sleep(2000)
         setContentView(binding.root)
     }
 }

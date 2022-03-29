@@ -6,5 +6,5 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "Default_Android_Project_Template"
+rootProject.name = "bubble_level"
 include ':app'
