@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="50dp"
+    android:layout_height="320dp"
+    android:background="@drawable/background_bubble_level_vertical">
+
+    <ImageView
+        android:id="@+id/water_drop_view"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/waterdrop_vertical"/>
+</FrameLayout>

@@ -13,8 +13,10 @@ class AccelerometerDataSource(
     override fun getAccelerometer(): Flow<AccelerometerVO> {
         return sensor.sensorEvents.map { event ->
             val accelerometer = AccelerometerVO(
-                xTilt = (10f * event.values[0]).roundToInt() / 10f,
-                yTilt = (10f * event.values[1]).roundToInt() / 10f)
+                xAccel = (10f * event.values[0]).roundToInt() / 10f,
+                yAccel = (10f * event.values[1]).roundToInt() / 10f,
+                zAccel = (10f * event.values[2]).roundToInt() / 10f,
+            )
 
             accelerometer
         }

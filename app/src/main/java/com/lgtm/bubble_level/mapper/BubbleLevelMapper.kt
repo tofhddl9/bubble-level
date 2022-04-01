@@ -7,8 +7,8 @@ object BubbleLevelMapper {
 
     fun AccelerometerVO.mapToBubbleLevelUiState(): BubbleLevelUiState {
         return BubbleLevelUiState(
-            xTilt = this.xTilt,
-            yTilt = this.yTilt,
+            xTilt = this.xAccel,
+            yTilt = this.yAccel,
         )
     }
 
