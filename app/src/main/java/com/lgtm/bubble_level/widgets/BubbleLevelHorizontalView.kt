@@ -1,7 +1,6 @@
 package com.lgtm.bubble_level.widgets
 
 import android.animation.ObjectAnimator
-import android.animation.PropertyValuesHolder
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
@@ -9,7 +8,6 @@ import android.widget.FrameLayout
 import androidx.annotation.Dimension
 import androidx.core.view.doOnLayout
 import com.lgtm.bubble_level.databinding.ViewBubbleLevelHorizontalBinding
-import com.lgtm.bubble_level.databinding.ViewBubbleLevelVerticalBinding
 import com.lgtm.bubble_level.model.BubbleLevelUiState
 
 class BubbleLevelHorizontalView @JvmOverloads constructor(
