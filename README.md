@@ -14,6 +14,9 @@
     ├── model
     │   ├── AccelerometerVO.kt
     │   ├── BubbleLevelUiState.kt
+    ├── sensor
+    │   ├── AccelerometerSensor.kt
+    │   ├── LifecycleAwareSensor.kt
     ├── util
     │   ├── metricsUtil.kt
     ├── viewModels
